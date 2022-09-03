@@ -18,5 +18,5 @@ criaCartaBtn.addEventListener('click', () => {
     const span = document.createElement('span');
     span.innerText = arrayString[i];
     cartaGerada.appendChild(span);
-  } input.value = null;
+  } // input.value = null;
 });
