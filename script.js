@@ -10,8 +10,16 @@ function killspan() {
   }
 }
 
+function erro() {
+  cartaGerada.innerText = 'Por favor, digite o conteúdo da carta.';
+}
+
 criaCartaBtn.addEventListener('click', () => {
   killspan();
+  if (input.value === '' || input.value === ' ') {
+    erro();
+    return;
+  } cartaGerada.innerText = '';
   const string = input.value;
   const arrayString = string.split(' ');
   for (let i = 0; i < arrayString.length; i += 1) {
