@@ -26,7 +26,7 @@ function contaString(num) {
 }
 
 criaCartaBtn.addEventListener('click', () => {
-  if (input.value === '' || input.value === ' ') {
+  if (!input.value.trim()) {
     erro();
     return;
   } cartaGerada.innerText = '';

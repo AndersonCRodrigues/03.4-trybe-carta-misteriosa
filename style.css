@@ -2,6 +2,10 @@ body {
   width: auto;
 }
 
+span {
+  display: inline-block;
+}
+
 .newspaper {
   background-color: antiquewhite;
   font-weight: 700;
@@ -42,7 +46,7 @@ body {
 }
 
 .rotateright {
-  transform: matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0);
+  transform: matrix(matrix(1, 0, -0.176327, 1, 0, 0));
 }
 
 .skewleft {
@@ -52,4 +56,3 @@ body {
 .skewright {
   transform: matrix(1, 0, -0.176327, 1, 0, 0);
 }
-
