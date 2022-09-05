@@ -46,7 +46,7 @@ span {
 }
 
 .rotateright {
-  transform: matrix(matrix(1, 0, -0.176327, 1, 0, 0));
+  transform: matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0);
 }
 
 .skewleft {
