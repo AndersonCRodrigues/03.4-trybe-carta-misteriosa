@@ -1,4 +1,7 @@
-/* stylelint-disable number-max-precision */
+body {
+  width: auto;
+}
+
 .newspaper {
   background-color: antiquewhite;
   font-weight: 700;
